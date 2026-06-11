@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RNVN – Creative Automation Solution. Kami membantu bisnis berkembang lebih cepat melalui AI Automation, workflow system, customer service automation, dan intelligent digital integration." />
+  <meta name="keywords" content="AI Automation, Workflow Automation, AI Agency, Business Automation, RNVN, Customer Service Automation" />
+  <meta property="og:title" content="RNVN – AI Automation Agency" />
+  <meta property="og:description" content="Build Smarter Business Systems With AI Automation." />
+  <title>RNVN – AI Automation Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">RNVN</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <p class="loader-text">Initializing AI Systems...</p>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-follower"></div>
+
+  <!-- Particles Background -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">RN<span>VN</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+      <a href="#cta" class="nav-cta">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-container">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span> Future of Business Automation
+      </div>
+      <h1 class="hero-title reveal">
+        Build Smarter<br/>
+        <span class="gradient-text">Business Systems</span><br/>
+        With AI Automation
+      </h1>
+      <p class="hero-desc reveal">
+        Kami membantu bisnis berkembang lebih cepat melalui AI Automation, workflow system, customer service automation, dan intelligent digital integration.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#pricing" class="btn-primary" id="btn-get-started">Get Started</a>
+        <a href="#services" class="btn-secondary" id="btn-view-services">View Services</a>
+      </div>
+
+      <!-- Hero Description + Built For -->
+      <div class="hero-desc-block reveal">
+        <p class="hero-sub-desc">Mengurangi pekerjaan manual, mempercepat operasional bisnis, dan meningkatkan produktivitas dengan sistem automation modern berbasis Artificial Intelligence.</p>
+        <div class="hero-built-for">
+          <span class="built-label">Built for:</span>
+          <div class="built-tags">
+            <span>UMKM</span>
+            <span>Startup</span>
+            <span>Clothing Brand</span>
+            <span>Printing Business</span>
+            <span>Agency</span>
+            <span>E-Commerce</span>
+            <span>Creative Business</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-cards reveal">
+        <div class="glass-card float-card-1">
+          <div class="card-icon">⚡</div>
+          <div class="card-info">
+            <span class="card-num">10x</span>
+            <span class="card-label">Faster Workflow</span>
+          </div>
+        </div>
+        <div class="glass-card float-card-2">
+          <div class="card-icon">🤖</div>
+          <div class="card-info">
+            <span class="card-num">24/7</span>
+            <span class="card-label">AI Operations</span>
+          </div>
+        </div>
+        <div class="glass-card float-card-3">
+          <div class="card-icon">📊</div>
+          <div class="card-info">
+            <span class="card-num">80%</span>
+            <span class="card-label">Cost Reduction</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+
+  <!-- Marquee Tech Strip -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>🤖 AI Automation</span>
+      <span>⚙️ Make</span>
+      <span>🔄 n8n</span>
+      <span>📱 WhatsApp API</span>
+      <span>🧠 GPT-4</span>
+      <span>📊 Google Sheets</span>
+      <span>🔗 Zapier</span>
+      <span>📄 OCR AI</span>
+      <span>🤖 Telegram Bot</span>
+      <span>🌐 Workflow Integration</span>
+      <span>💬 AI Chatbot</span>
+      <span>⚡ Business Automation</span>
+      <span>🤖 AI Automation</span>
+      <span>⚙️ Make</span>
+      <span>🔄 n8n</span>
+      <span>📱 WhatsApp API</span>
+      <span>🧠 GPT-4</span>
+      <span>📊 Google Sheets</span>
+      <span>🔗 Zapier</span>
+      <span>📄 OCR AI</span>
+      <span>🤖 Telegram Bot</span>
+      <span>🌐 Workflow Integration</span>
+      <span>💬 AI Chatbot</span>
+      <span>⚡ Business Automation</span>
+    </div>
+  </div>
+
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="section-tag reveal">About RNVN</div>
+      <h2 class="section-title reveal">Intelligent Automation<br/><span class="gradient-text">For Modern Business</span></h2>
+      <p class="section-desc reveal">RNVN adalah creative automation solution yang membantu bisnis mengubah workflow manual menjadi sistem digital otomatis menggunakan AI dan teknologi modern.</p>
+      <div class="about-grid reveal">
+        <div class="about-card">
+          <div class="about-icon">🧠</div>
+          <h3>AI Automation</h3>
+          <p>Deploy intelligent models yang berpikir, memutuskan, dan bertindak secara otomatis tanpa intervensi manual.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🔄</div>
+          <h3>Workflow Integration</h3>
+          <p>Merancang workflow end-to-end yang menghubungkan seluruh ekosistem bisnis Anda secara seamless.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🏗️</div>
+          <h3>Smart Business System</h3>
+          <p>Membangun sistem bisnis cerdas yang terukur dan siap berkembang seiring pertumbuhan bisnis Anda.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">💡</div>
+          <h3>Creative Technology</h3>
+          <p>Menggunakan pendekatan kreatif dengan teknologi terkini untuk menciptakan solusi yang unik dan efektif.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🌐</div>
+          <h3>Modern Digital Experience</h3>
+          <p>Menghadirkan pengalaman digital modern yang meningkatkan produktivitas dan citra profesional bisnis.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">📈</div>
+          <h3>Scalable Growth</h3>
+          <p>Sistem yang dirancang untuk berkembang — dari startup kecil hingga enterprise berskala besar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <div class="section-tag reveal">What We Build</div>
+      <h2 class="section-title reveal">Our <span class="gradient-text">Services</span></h2>
+      <p class="section-desc reveal">Solusi automation berbasis AI yang dirancang khusus untuk kebutuhan bisnis Anda.</p>
+      <div class="services-grid">
+
+        <!-- AI Customer Service -->
+        <div class="service-card reveal" id="svc-1">
+          <div class="service-glow"></div>
+          <div class="service-icon">💬</div>
+          <h3>AI Customer Service</h3>
+          <p class="service-subtitle">Smart Auto Reply System</p>
+          <p>Membangun sistem customer service otomatis berbasis AI untuk meningkatkan respon dan pengalaman customer.</p>
+          <ul class="service-features">
+            <li>AI Chat Automation</li>
+            <li>WhatsApp Integration</li>
+            <li>Smart FAQ</li>
+            <li>Telegram Bot</li>
+            <li>24/7 Auto Response</li>
+          </ul>
+          <div class="service-tag">NLP · GPT · Omnichannel</div>
+        </div>
+
+        <!-- AI Workflow Automation -->
+        <div class="service-card reveal" id="svc-2">
+          <div class="service-glow"></div>
+          <div class="service-icon">⚙️</div>
+          <h3>AI Workflow Automation</h3>
+          <p class="service-subtitle">Automate Repetitive Tasks</p>
+          <p>Mengotomatisasi proses bisnis agar lebih cepat dan efisien.</p>
+          <ul class="service-features">
+            <li>Google Sheets Integration</li>
+            <li>Order Automation</li>
+            <li>Notification System</li>
+            <li>Dashboard Workflow</li>
+            <li>Smart Data Management</li>
+          </ul>
+          <div class="service-tag">Make · n8n · Zapier</div>
+        </div>
+
+        <!-- AI OCR & Receipt System -->
+        <div class="service-card reveal" id="svc-3">
+          <div class="service-glow"></div>
+          <div class="service-icon">📄</div>
+          <h3>AI OCR & Receipt System</h3>
+          <p class="service-subtitle">Intelligent Receipt Scanner</p>
+          <p>AI system untuk membaca struk, invoice, dan data transaksi secara otomatis.</p>
+          <ul class="service-features">
+            <li>OCR AI Scanner</li>
+            <li>Expense Recording</li>
+            <li>Auto Financial Tracking</li>
+            <li>Smart Data Input</li>
+            <li>Transaction Monitoring</li>
+          </ul>
+          <div class="service-tag">Vision AI · OCR · ML</div>
+        </div>
+
+        <!-- AI Content Automation -->
+        <div class="service-card reveal" id="svc-4">
+          <div class="service-glow"></div>
+          <div class="service-icon">✍️</div>
+          <h3>AI Content Automation</h3>
+          <p class="service-subtitle">Faster Creative Production</p>
+          <p>Membantu bisnis menghasilkan konten digital lebih cepat menggunakan AI.</p>
+          <ul class="service-features">
+            <li>AI Caption Generator</li>
+            <li>Content Planning</li>
+            <li>Hashtag Generator</li>
+            <li>Creative Workflow</li>
+            <li>Social Media Support</li>
+          </ul>
+          <div class="service-tag">GPT · SEO · Scheduling</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits / Why Choose Us -->
+  <section id="why-us">
+    <div class="container">
+      <div class="section-tag reveal">Why RNVN</div>
+      <h2 class="section-title reveal">Why Businesses <span class="gradient-text">Choose RNVN</span></h2>
+      <div class="stats-grid">
+        <div class="stat-card reveal" id="stat-1">
+          <div class="stat-glow"></div>
+          <div class="stat-icon">⏱️</div>
+          <div class="stat-num" data-target="80" data-suffix="%">0%</div>
+          <div class="stat-label">Save More Time</div>
+          <p class="stat-desc">Mengurangi pekerjaan manual yang berulang.</p>
+        </div>
+        <div class="stat-card reveal" id="stat-2">
+          <div class="stat-glow"></div>
+          <div class="stat-icon">🚀</div>
+          <div class="stat-num" data-target="10" data-suffix="x">0x</div>
+          <div class="stat-label">Increase Productivity</div>
+          <p class="stat-desc">Workflow bisnis menjadi lebih cepat dan efisien.</p>
+        </div>
+        <div class="stat-card reveal" id="stat-3">
+          <div class="stat-glow"></div>
+          <div class="stat-icon">🏆</div>
+          <div class="stat-num" data-target="100" data-suffix="%">0%</div>
+          <div class="stat-label">Professional System</div>
+          <p class="stat-desc">Meningkatkan kualitas operasional bisnis.</p>
+        </div>
+        <div class="stat-card reveal" id="stat-4">
+          <div class="stat-glow"></div>
+          <div class="stat-icon">🧩</div>
+          <div class="stat-num" data-target="24" data-suffix="/7">0/7</div>
+          <div class="stat-label">Flexible Integration</div>
+          <p class="stat-desc">Bisa disesuaikan dengan kebutuhan bisnis Anda.</p>
+        </div>
+    </div>
+  </section>
+
+  <!-- Workflow / Process Section -->
+  <section id="process">
+    <div class="container">
+      <div class="section-tag reveal">How It Works</div>
+      <h2 class="section-title reveal">How We <span class="gradient-text">Work</span></h2>
+      <p class="section-desc reveal">Framework 5 langkah terbukti untuk mentransformasi bisnis Anda dengan AI.</p>
+      <div class="timeline">
+        <div class="timeline-item reveal" id="step-1">
+          <div class="timeline-num">01</div>
+          <div class="timeline-content">
+            <h3>Consultation</h3>
+            <p>Analisa kebutuhan dan workflow bisnis client.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" id="step-2">
+          <div class="timeline-num">02</div>
+          <div class="timeline-content">
+            <h3>Strategy</h3>
+            <p>Merancang automation system yang sesuai.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" id="step-3">
+          <div class="timeline-num">03</div>
+          <div class="timeline-content">
+            <h3>Development</h3>
+            <p>Membangun workflow dan AI integration.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" id="step-4">
+          <div class="timeline-num">04</div>
+          <div class="timeline-content">
+            <h3>Optimization</h3>
+            <p>Testing dan optimasi sistem automation.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" id="step-5">
+          <div class="timeline-num">05</div>
+          <div class="timeline-content">
+            <h3>Deployment</h3>
+            <p>Implementasi sistem ke bisnis client.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing">
+    <div class="container">
+      <div class="section-tag reveal">Pricing Plan</div>
+      <h2 class="section-title reveal">Simple, <span class="gradient-text">Transparent</span> Pricing</h2>
+      <p class="section-desc reveal">Pilih paket yang sesuai dengan tahap pertumbuhan bisnis Anda.</p>
+      <div class="pricing-grid">
+
+        <!-- Starter -->
+        <div class="pricing-card reveal" id="plan-starter">
+          <div class="plan-name">Starter Package</div>
+          <p class="plan-tagline">Perfect for small business</p>
+          <div class="plan-price">Rp500K<span> /mulai dari</span></div>
+          <p class="plan-desc">Paket ideal untuk UMKM dan bisnis kecil yang baru memulai perjalanan automation.</p>
+          <ul class="plan-features">
+            <li>✓ Basic Automation Workflow</li>
+            <li>✓ AI Setup</li>
+            <li>✓ Google Sheets Integration</li>
+            <li>✓ Basic Support</li>
+          </ul>
+          <a href="#cta" class="plan-btn">Get Started</a>
+        </div>
+
+        <!-- Professional -->
+        <div class="pricing-card featured reveal" id="plan-pro">
+          <div class="plan-badge">Most Popular</div>
+          <div class="plan-name">Professional Package</div>
+          <p class="plan-tagline">For growing business</p>
+          <div class="plan-price">Rp2jt<span> /mulai dari</span></div>
+          <p class="plan-desc">Untuk bisnis yang sedang berkembang dan siap scale dengan full AI automation.</p>
+          <ul class="plan-features">
+            <li>✓ Multi Workflow Automation</li>
+            <li>✓ AI Customer Service</li>
+            <li>✓ WhatsApp Integration</li>
+            <li>✓ Dashboard Monitoring</li>
+            <li>✓ Priority Support</li>
+          </ul>
+          <a href="#cta" class="plan-btn">Get Started</a>
+        </div>
+
+        <!-- Enterprise -->
+        <div class="pricing-card reveal" id="plan-enterprise">
+          <div class="plan-name">Enterprise Package</div>
+          <p class="plan-tagline">Custom intelligent system</p>
+          <div class="plan-price">Custom<span> pricing</span></div>
+          <p class="plan-desc">Sistem AI penuh yang dikustomisasi untuk operasional bisnis enterprise yang kompleks.</p>
+          <ul class="plan-features">
+            <li>✓ Full AI Integration</li>
+            <li>✓ Advanced Workflow</li>
+            <li>✓ Multi Platform Integration</li>
+            <li>✓ Custom Business Solution</li>
+            <li>✓ Premium Support</li>
+          </ul>
+          <a href="#cta" class="plan-btn">Contact Us</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq">
+    <div class="container">
+      <div class="section-tag reveal">FAQ</div>
+      <h2 class="section-title reveal">Pertanyaan yang <span class="gradient-text">Sering Ditanyakan</span></h2>
+      <div class="faq-list">
+        <div class="faq-item reveal" id="faq-1">
+          <button class="faq-question" aria-expanded="false">
+            <span>Apa itu AI Automation dan bagaimana cara kerjanya?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>AI Automation adalah sistem yang menggunakan kecerdasan buatan untuk menjalankan tugas-tugas bisnis secara otomatis — mulai dari membalas pesan customer, memproses order, hingga membuat laporan keuangan — tanpa perlu intervensi manual.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal" id="faq-2">
+          <button class="faq-question" aria-expanded="false">
+            <span>Berapa lama proses pembuatan sistem automation?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Tergantung kompleksitas sistem, rata-rata 3–14 hari kerja. Paket Starter bisa selesai dalam 3–5 hari, sedangkan paket Professional dan Enterprise membutuhkan 7–21 hari tergantung integrasi yang dibutuhkan.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal" id="faq-3">
+          <button class="faq-question" aria-expanded="false">
+            <span>Apakah cocok untuk bisnis kecil seperti UMKM?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sangat cocok! Justru UMKM dan bisnis kecil paling banyak diuntungkan karena automation menggantikan kebutuhan tambahan SDM. Dengan paket Starter mulai Rp500K, UMKM sudah bisa mulai otomatis.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal" id="faq-4">
+          <button class="faq-question" aria-expanded="false">
+            <span>Platform apa saja yang bisa diintegrasikan?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Kami mengintegrasikan WhatsApp Business, Telegram, Google Sheets, Notion, Instagram, Tokopedia, Shopee, dan ratusan platform lainnya melalui tools seperti Make, n8n, dan Zapier.</p>
+          </div>
+        </div>
+        <div class="faq-item reveal" id="faq-5">
+          <button class="faq-question" aria-expanded="false">
+            <span>Apakah ada garansi atau after-sales support?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Ya! Setiap paket dilengkapi dengan support period. Starter mendapat 7 hari basic support, Professional 30 hari priority support, dan Enterprise mendapat dedicated support jangka panjang.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section id="cta">
+    <div class="cta-glow"></div>
+    <div class="container">
+      <div class="cta-content reveal">
+        <div class="section-tag">Ready To Automate?</div>
+        <h2 class="cta-title">Ready To Automate<br/><span class="gradient-text">Your Business?</span></h2>
+        <p class="cta-desc">Bangun sistem bisnis modern dengan AI Automation dan workflow intelligent system.</p>
+        <div class="cta-buttons">
+          <a href="https://wa.me/628563122123" target="_blank" class="btn-primary glow-btn" id="btn-wa">Schedule Consultation</a>
+          <a href="mailto:rnvnofficial@gmail.com" class="btn-ghost" id="btn-email">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">RN<span>VN</span></div>
+          <p>RNVN Creative Automation</p>
+          <p class="footer-tagline">Artificial Intelligence • Workflow System • Creative Technology</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/rnvn.id" target="_blank" aria-label="Instagram" id="social-ig">IG</a>
+            <a href="mailto:rnvnofficial@email.com" aria-label="Email" id="social-email">✉</a>
+            <a href="https://wa.me/628563122123" target="_blank" aria-label="WhatsApp" id="social-wa">WA</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">AI Customer Service</a></li>
+            <li><a href="#services">Workflow Automation</a></li>
+            <li><a href="#services">OCR & Receipt AI</a></li>
+            <li><a href="#services">Content Automation</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Clients</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="https://instagram.com/rnvn.id" target="_blank">@rnvn.id</a></li>
+            <li><a href="mailto:rnvnofficial@gmail.com">rnvnofficial@gmail.com</a></li>
+            <li><a href="https://wa.me/628563122123">+628563122123</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 RNVN — All Rights Reserved</p>
+        <p>Artificial Intelligence • Workflow System • Creative Technology</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/628563122123" target="_blank" class="float-wa" id="float-wa" aria-label="Chat WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="float-wa-label">Chat Kami</span>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
